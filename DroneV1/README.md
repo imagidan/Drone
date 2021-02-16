@@ -23,3 +23,4 @@ Here are the improvements to make in the PCB version of Drone V1:
 - Programmable ESC with retrievable back EMF
 - Li-Ion Battery
 - Adjust PID values
+- Remove useless buck converter (Arduino Nano 33 BLE Sense already had one)
