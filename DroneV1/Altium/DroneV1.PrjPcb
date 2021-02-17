@@ -90,9 +90,26 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DVOQLDFL
+DocumentUniqueId=LPXQCKMG
 
 [Document4]
+DocumentPath=MosfetField.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KWRKOIXK
+
+[Document5]
 DocumentPath=ESC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,9 +124,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DYUGJKFQ
+DocumentUniqueId=YHJVQIFD
 
-[Document5]
+[Document6]
 DocumentPath=SCHLib.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -126,7 +143,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQXUSFEF
 
-[Document6]
+[Document7]
 DocumentPath=PCBLib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -143,7 +160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRLHQWMA
 
-[Document7]
+[Document8]
 DocumentPath=SnapDocs\MPM3610GQV-P.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -160,7 +177,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=SnapDocs\MPM3610GQV-P.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -177,7 +194,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=SnapDocs\PMEG6020AELRX.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -194,7 +211,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JVHTISAB
 
-[Document10]
+[Document11]
 DocumentPath=SnapDocs\PMEG6020AELRX.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,6 +227,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
+
+[Document12]
+DocumentPath=SnapDocs\IRF7749L1TRPBF.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=SnapDocs\PSMNR60-25YLHX.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GMIVLSFD
+
+[Document14]
+DocumentPath=..\..\..\..\Users\Daniel\Dropbox\My PC (DESKTOP-3QREUK9)\Documents\PSMNR60-25YLHX.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Drone\Design Rule Check - Main.html
