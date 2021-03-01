@@ -1,0 +1,1 @@
+Since a CNC machine is pretty expensive, and since I have better things to spend on, I am thinking of getting a custom carbon fiber frame made by [these guys](https://cncmadness.com/). Another option could be going to the Pierrefonds Library and bringing my own sheet since I think they have a pretty good CNC machine.
