@@ -5,8 +5,8 @@
 // * LSM6DSOX + LIS3MDL Breakout : https://www.adafruit.com/product/4517
 // * LSM6DS33 + LIS3MDL Breakout Lhttps://www.adafruit.com/product/4485
 
-#include <Adafruit_LSM6DSOX.h>
-Adafruit_LSM6DSOX lsm6ds;
+//#include <Adafruit_LSM6DSOX.h>
+//Adafruit_LSM6DSOX lsm6ds;
 
 // To use with the LSM6DS33+LIS3MDL breakout, uncomment these two lines
 // and comment out the lines referring to the LSM6DSOX above
@@ -15,8 +15,8 @@ Adafruit_LSM6DSOX lsm6ds;
 
 // To use with the ISM330DHCX+LIS3MDL Feather Wing, uncomment these two lines
 // and comment out the lines referring to the LSM6DSOX above
-//#include <Adafruit_ISM330DHCX.h>
-//Adafruit_ISM330DHCX lsm6ds;
+#include <Adafruit_ISM330DHCX.h>
+Adafruit_ISM330DHCX lsm6ds;
 
 #include <Adafruit_LIS3MDL.h>
 Adafruit_LIS3MDL lis3mdl;
@@ -37,10 +37,16 @@ void setup(void) {
 
   if (!lsm6ds_success){
     Serial.println("Failed to find LSM6DS chip");
+  } else{
+    Serial.println("Found LSM6DS chip");
   }
+  
   if (!lis3mdl_success){
     Serial.println("Failed to find LIS3MDL chip");
+  } else {
+    Serial.println("Found LIS3MDL chip");
   }
+  
   if (!(lsm6ds_success && lis3mdl_success)) {
     while (1) {
       delay(10);
